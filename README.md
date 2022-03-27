@@ -55,6 +55,17 @@ Tip: hunk project dose not famouse and never use. splunk use mongodb for storing
 
 
 
+## splunk query for port scan detection
+* Vertical Port Scan: External IP performing scan on single system for multiple ports
+```
+index=trafficlogs | stats dc(dest_port) as dc_dest_port by src, dest| where dc_dest_port > 10
+```
+* Horizontal Port Scan: External IP is scanning multiple systems for querying single port.  
+```
+index=trafficlogs| stats dc(dest) as dc_dest by src, dest_port| where dc_dest > 10
+```
+
+
 ## [Splunk Attack Range](https://github.com/splunk/attack_range)
 A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk
 
