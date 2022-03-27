@@ -39,6 +39,21 @@ splunk developer make app and connect to other IOT, Devices, social media , ... 
 <img src="/img/2.png" />
 
 
+### splunk database structure
+* sql BD = use Ram , good for data analysis => like mysql
+* Nosql BD = use storage , good for Big data analysis => like mongodb
+* distributed database = splunk + hadoop( use map reduce) => project HUNK
+
+Tip: hunk project dose not famouse and never use. splunk use mongodb for storing data
+
+### splunk data pipeline
+* raw data (add host,source metadata field to any log row)
+* parsing (add timestamp and make beautiful format for field of data 
+* indexing (we create multiple indexing splunk docker for better search)
+* search (use tag,macro and other field for search data)
+
+
+
 
 ## [Splunk Attack Range](https://github.com/splunk/attack_range)
 A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk
@@ -51,8 +66,11 @@ A tool that allows you to create vulnerable instrumented local or cloud environm
 ## [Splunk Security Essentials](https://splunkbase.splunk.com/app/3435/)
 Get started with Splunk for Security with Splunk Security Essentials (SSE). Explore security use cases and discover security content to start address threats and challenges.
 
+## [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/)
+Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations’ security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to:
 
-### refrences
+
+### reference
 * [splunk toturial](https://www.tutorialspoint.com/splunk/index.htm)
 * [splunk doc](https://docs.splunk.com/Documentation/SSE/3.5.0/ReleaseNotes/Enhancements)
 
