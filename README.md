@@ -33,4 +33,7 @@ Specify the amount of time to retain data for each category. Data will be rolled
 * Warm storage = HDD,SAS 15k  -> 6 mon
 * Cold storage = 10k,tape  -> 1 year
 
+## [splunk App](https://splunkbase.splunk.com/app/4710/)
+splunk developer make app and connect to other IOT, Devices, social media , ... and collect log and create role for analysis data and make a beautiful dashboard.
+
 
