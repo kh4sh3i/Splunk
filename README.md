@@ -34,6 +34,26 @@ Specify the amount of time to retain data for each category. Data will be rolled
 * Cold storage = 10k,tape  -> 1 year
 
 ## [splunk App](https://splunkbase.splunk.com/app/4710/)
-splunk developer make app and connect to other IOT, Devices, social media , ... and collect log and create role for analysis data and make a beautiful dashboard.
+splunk developer make app and connect to other IOT, Devices, social media , ... and collect log and create role for analysis data and make a beautiful dashboard. this is a pstn dashboard.
+
+<img src="/img/2.png" />
+
+
+
+## [Splunk Attack Range](https://github.com/splunk/attack_range)
+A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk
+
+
+## [splunk MITRE ATT&CK map support](https://mitremap.splunkresearch.com/)
+
+
+
+## [Splunk Security Essentials](https://splunkbase.splunk.com/app/3435/)
+Get started with Splunk for Security with Splunk Security Essentials (SSE). Explore security use cases and discover security content to start address threats and challenges.
+
+
+### refrences
+* [splunk toturial](https://www.tutorialspoint.com/splunk/index.htm)
+* [splunk doc](https://docs.splunk.com/Documentation/SSE/3.5.0/ReleaseNotes/Enhancements)
 
 
